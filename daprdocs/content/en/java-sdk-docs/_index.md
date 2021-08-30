@@ -22,28 +22,28 @@ description: Java SDK packages for developing Dapr applications
 ## Importing Dapr's Java SDK
 
 For a Maven project, add the following to your `pom.xml` file: 
-```java
+```xml
 <project>
   ...
   <dependencies>
     ...
-     // Dapr's core SDK with all features, except Actors. 
+    <!-- Dapr's core SDK with all features, except Actors. -->
     <dependency>
       <groupId>io.dapr</groupId>
-      <artifactId>dapr-sdk</artifacetId>
-      <version>1.1.0</version>
+      <artifactId>dapr-sdk</artifactId>
+      <version>1.2.0</version>
     </dependency>
-    // Dapr's SDK for Actors (optional).
+    <!-- Dapr's SDK for Actors (optional). -->
     <dependency>
       <groupId>io.dapr</groupId>
       <artifactId>dapr-sdk-actors</artifactId>
-      <version>1.1.0</version>>
+      <version>1.2.0</version>
     </dependency>
-    // Dapr's SDK integration with SpringBoot (optional).
+    <!-- Dapr's SDK integration with SpringBoot (optional). -->
     <dependency>
       <groupId>io.dapr</groupId>
       <artifactId>dapr-sdk-springboot</artifactId>
-      <version>1.1.0</version>>
+      <version>1.2.0</version>
     </dependency>
     ...
   </dependencies>
